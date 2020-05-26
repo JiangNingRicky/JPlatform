@@ -1,2 +1,13 @@
 swagger:
   enabled: true
+
+spring:
+  redis:
+    host: 121.42.50.111
+    database: 0
+    port: 6379
+    password: Jiangning7529;
+  kafka:
+    bootstrap-servers: 121.42.50.111:9092
+
+
